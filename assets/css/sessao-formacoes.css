@@ -1,0 +1,65 @@
+/* seção especialidade */
+
+.formacoes .titulo::after {
+    content: "";
+}
+
+.formacoes .titulo::before {
+    width: 400px;
+}
+
+.formacoes .formacoes-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.lista__formacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.formacoes .formacoes-conteudo .colunas {
+    width: calc(45% - 15px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.formacoes .formacoes-conteudo .colunas p {
+    text-align: justify;
+}
+
+.formacoes .formacoes-conteudo .colunas a {
+    display: inline-block;
+    background: #0A66C2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #222;
+    transition: all 0.3s ease;
+}
+
+.formacoes .formacoes-conteudo .colunas a:hover {
+    color: var(--azul);
+    background: none;
+}
+
+
+.subtitulo {
+    color: var(--azul);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+.item-lista {
+    margin: 0.2em 1em 1.8em 1em;
+}

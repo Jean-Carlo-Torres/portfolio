@@ -1,0 +1,24 @@
+/* menu mobile */
+
+.menu-btn {
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
+
+.wpp-btn {
+    position: fixed;
+    width: 42px;
+    height: 45px;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: #03D25F;
+    font-size: 50px;
+}
+
+.wpp-btn a {
+    color: #03D25F
+}

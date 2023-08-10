@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@import url("./navbar.css");
+@import url("./principal.css");
+@import url("./menu-mobile.css");
+@import url("./codigos-similares.css");
+@import url("./sessao-sobre.css");
+@import url("./sessao-tecnologias.css");
+@import url("./sessao-formacoes.css");
+@import url("./rodape.css");
+@import url("./sessao-projetos.css");
+@import url("./sessao-especialidade.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --fonte-principal: "Poppins";
+    --branco: #ffffff;
+    --azul: #006eff;
+    --azul-claro: #04ebfc;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --preto-light: #222;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+/* codigos similares */
+section {
+    padding: 100px 0;
+}
+
+section .titulo {
+    font-family: var(--fonte-principal), 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+section .titulo::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 180px;
+    height: 1px;
+    background: #111;
+    transform: translateX(-50%)
+}
+
+section .titulo::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    background: #fff;
+    color: var(--azul);
+    padding: 5px;
+    transform: translateX(-50%)
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    width: 14px;
+    height: 14px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid var(--azul) !important;
+    transition: all 0.7s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 15px;
+}
+
+.owl-dot.active,
+.owl-dot.active:hover {
+    background: var(--azul)42 !important;
+}
+
+.texto_arraste {
+    color: var(--azul-claro);
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 8px;
+    text-align: center;
+}
