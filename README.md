@@ -2,7 +2,7 @@
 
 <p align="center">Meu Portfólio, onde falo sobre mim, demostro as tecnologias que eu trabalho, minhas formações, especialidades e projetos pessoais. </p>
 
-<h6 align="center"><a href="#">**Link para testar o projeto**</a></h6>
+<h6 align="center"><a href="https://jean-carlo-torres.github.io/portfolio/">**Link para testar o projeto**</a></h6>
 
 <img src="./assets/img/tela-principal.png">
 
