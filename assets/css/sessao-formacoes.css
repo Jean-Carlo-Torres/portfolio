@@ -63,3 +63,15 @@
 .item-lista {
     margin: 0.2em 1em 1.8em 1em;
 }
+
+@media(max-width: 925px) {
+    .lista__formacoes{
+        display: block;
+        flex-direction: column!important;
+    }
+
+    .formacoes .formacoes-conteudo .colunas {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,24 +1,42 @@
 /* menu mobile */
 
 .menu-btn {
-    color: #fff;
-    font-size: 26px;
+    color: var(--branco);
+    font-size: 48px;
     cursor: pointer;
     display: none;
 }
 
-.wpp-btn {
-    position: fixed;
-    width: 42px;
-    height: 45px;
-    right: 30px;
-    bottom: 30px;
-    text-align: center;
-    line-height: 45px;
-    color: #03D25F;
-    font-size: 50px;
-}
 
-.wpp-btn a {
-    color: #03D25F
+@media(max-width: 925px) {
+    .max-width {
+        padding: 0 50px;
+    }
+
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: -100%;
+        top: 0;
+        background: #111;
+        padding-top: 80px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu li {
+        display: block;
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
 }

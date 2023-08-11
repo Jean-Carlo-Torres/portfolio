@@ -7,7 +7,7 @@
 }
 
 .servicos .titulo::before {
-    background: #fff;
+    background: #ffffff;
     width: 400px;
 }
 
@@ -15,7 +15,6 @@
     background: #111;
     content: "Que faço/estudo";
 }
-
 
 .servicos .servicos-conteudo {
     display: flex;
@@ -128,6 +127,10 @@
 
 
 @media(max-width: 925px) {
+
+    .servicos .titulo::after {
+        width: 180px;
+    }
 
     .servicos .max-width .servicos-conteudo .card1,
     .servicos .max-width .servicos-conteudo .card2,

@@ -42,12 +42,11 @@
 .principal .principal__conteudo .principal__botao a {
     display: inline-block;
     background: var(--azul);
-    color: #fff;
+    color: var(--branco);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-
     border: 2px solid var(--azul);
 }
 
@@ -94,9 +93,21 @@
         font-size: 23px;
         padding: 10px 30px;
     }
+
+    .principal .principal__conteudo .texto-3 span {
+        background: -webkit-linear-gradient(333deg, rgb(2, 2, 32) 1%, rgb(0, 140, 255) 99%);
+        background: linear-gradient(333deg, rgb(32, 0, 175) 1%, rgba(0, 140, 255) 70%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 @media (max-width: 690px) {
+    .principal {
+        background-position: top;
+    }
+
     .principal .max-width .principal__conteudo .text-2 {
         font-size: 60px;
     }
@@ -111,6 +122,10 @@
 }
 
 @media (max-width: 500px) {
+    .principal {
+        background-position: 10%;
+    }
+
     .principal .max-width .principal__conteudo .text-2 {
         font-size: 50px;
     }
@@ -118,4 +133,6 @@
     .principal .max-width .principal__conteudo .text-2 {
         font-size: 27px;
     }
+
+
 }
