@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     background: url('../img/keepCoding-editado.jpg') no-repeat center;
+    /* background: url('../img/imgindex1.png') no-repeat center; */
     background-color: #0F0F0F;
     height: 100vh;
     color: #fff;
@@ -30,13 +31,14 @@
 }
 
 .principal .principal__conteudo .texto-3 span {
-    /* color: var(--azul); */
+    color: var(--azul);
     font-weight: 500;
-    background: -webkit-linear-gradient(333deg, rgba(2, 32, 20, 1) 1%, rgb(0, 140, 255) 99%);
-    background: linear-gradient(333deg, rgb(0, 5, 3) 1%, rgba(0, 140, 255) 70%);
+    /* color: #fff; */
+    /* background: -webkit-linear-gradient(333deg, rgb(21, 21, 255) 1%, rgb(0, 140, 255) 99%);
+        background: linear-gradient(333deg, rgb(78, 39, 255) 1%, rgba(0, 140, 255) 70%);
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
 }
 
 .principal .principal__conteudo .principal__botao a {
@@ -81,25 +83,21 @@
 
 
 @media(max-width: 925px) {
+    .principal .principal__conteudo .text-1 {
+        font-size: 80px;
+    }
+
     .principal .principal__conteudo .text-2 {
-        font-size: 60px;
+        font-size: 120px;
     }
 
     .principal .principal__conteudo .text-3 {
-        font-size: 32px;
+        font-size: 64px;
     }
 
     .principal .principal__conteudo a {
         font-size: 23px;
         padding: 10px 30px;
-    }
-
-    .principal .principal__conteudo .texto-3 span {
-        background: -webkit-linear-gradient(333deg, rgb(2, 2, 32) 1%, rgb(0, 140, 255) 99%);
-        background: linear-gradient(333deg, rgb(32, 0, 175) 1%, rgba(0, 140, 255) 70%);
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 }
 

@@ -16,11 +16,11 @@
     justify-content: center;
     transition: all 0.3s ease;
 }
-
+/* 
 .projetos .max-width .projetos__conteudo .carousel .card:hover {
     background: var(--azul-claro);
     color: #0F0F0F;
-}
+} */
 
 
 .projetos .max-width .projetos__conteudo .carousel .card .box {
@@ -68,7 +68,7 @@
 }
 
 .link-projeto:hover {
-    background: none;
+    background: #ffffff;
     color: var(--azul);
     border: 2px solid var(--azul);
 }

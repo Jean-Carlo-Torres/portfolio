@@ -28,7 +28,8 @@
 .servicos .max-width .servicos-conteudo .card3,
 .servicos .max-width .servicos-conteudo .card4,
 .servicos .max-width .servicos-conteudo .card5,
-.servicos .max-width .servicos-conteudo .card6 {
+.servicos .max-width .servicos-conteudo .card6,
+.servicos .max-width .servicos-conteudo .card7 {
     width: calc(33% - 20px);
     background: var(--azul-degrade);
     text-align: center;
@@ -44,9 +45,17 @@
 .servicos .max-width .servicos-conteudo .card3:hover,
 .servicos .max-width .servicos-conteudo .card4:hover,
 .servicos .max-width .servicos-conteudo .card5:hover,
-.servicos .max-width .servicos-conteudo .card6:hover {
+.servicos .max-width .servicos-conteudo .card6:hover,
+.servicos .max-width .servicos-conteudo .card7:hover {
     background: var(--branco);
     color: #111;
+}
+
+.servicos .max-width .servicos-conteudo .card7:hover {
+    .text{
+        color:darkmagenta;
+    }
+
 }
 
 .servicos .max-width .servicos-conteudo .card1 .box,
@@ -54,7 +63,8 @@
 .servicos .max-width .servicos-conteudo .card3 .box,
 .servicos .max-width .servicos-conteudo .card4 .box,
 .servicos .max-width .servicos-conteudo .card5 .box,
-.servicos .max-width .servicos-conteudo .card6 .box {
+.servicos .max-width .servicos-conteudo .card6 .box,
+.servicos .max-width .servicos-conteudo .card7 .box {
     transition: all 0.4s ease;
 }
 
@@ -63,7 +73,8 @@
 .servicos .max-width .servicos-conteudo .card3:hover .box,
 .servicos .max-width .servicos-conteudo .card4:hover .box,
 .servicos .max-width .servicos-conteudo .card5:hover .box,
-.servicos .max-width .servicos-conteudo .card6:hover .box {
+.servicos .max-width .servicos-conteudo .card6:hover .box,
+.servicos .max-width .servicos-conteudo .card7:hover .box {
     transform: 0.3s;
     transform: scale(1.05);
 }
@@ -73,7 +84,7 @@
 .servicos .max-width .servicos-conteudo .card3 ion-icon,
 .servicos .max-width .servicos-conteudo .card4 ion-icon,
 .servicos .max-width .servicos-conteudo .card5 i,
-.servicos .max-width .servicos-conteudo .card6 ion-icon {
+.servicos .max-width .servicos-conteudo .card6 ion-icon{
     font-size: 40px;
     color: var(--branco);
 }
@@ -88,11 +99,16 @@
 .servicos .max-width .servicos-conteudo .card3 .text,
 .servicos .max-width .servicos-conteudo .card4 .text,
 .servicos .max-width .servicos-conteudo .card5 .text,
-.servicos .max-width .servicos-conteudo .card6 .text {
+.servicos .max-width .servicos-conteudo .card6 .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 px 0;
 }
+
+.servicos .max-width .servicos-conteudo .card7 .text {
+    font-size: 30px;
+}
+
 
 .servicos .max-width .servicos-conteudo .card1:hover ion-icon {
     color: #2862e9;
@@ -124,8 +140,6 @@
     font-size: 40px;
 }
 
-
-
 @media(max-width: 925px) {
 
     .servicos .titulo::after {
@@ -137,7 +151,8 @@
     .servicos .max-width .servicos-conteudo .card3,
     .servicos .max-width .servicos-conteudo .card4,
     .servicos .max-width .servicos-conteudo .card5,
-    .servicos .max-width .servicos-conteudo .card6 {
+    .servicos .max-width .servicos-conteudo .card6,
+    .servicos .max-width .servicos-conteudo .card7 {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -150,7 +165,8 @@
     .servicos .max-width .servicos-conteudo .card3,
     .servicos .max-width .servicos-conteudo .card4,
     .servicos .max-width .servicos-conteudo .card5,
-    .servicos .max-width .servicos-conteudo .card6 {
+    .servicos .max-width .servicos-conteudo .card6,
+    .servicos .max-width .servicos-conteudo .card7 {
         width: 100%;
     }
 }
