@@ -25,6 +25,11 @@
     --azul-claro: #04ebfc;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --preto-light: #222;
+    
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
 }
 
 
