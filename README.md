@@ -4,7 +4,7 @@
 
 <h6 align="center"><a href="https://jean-carlo-torres.github.io/portfolio/">**Link para testar o projeto**</a></h6>
 
-<img src="./assets/img/tela-principal.png">
+<img src="./assets/img/portfolio_gif.gif">
 
 ## Tecnologias utilizadas no projeto
 * HTML
